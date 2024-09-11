@@ -22,7 +22,7 @@ struct ContentView: View {
                 }
 
             }
-            .navigationTitle("H4X0R NEWS")
+            .navigationTitle("H4X0R News")
         }
         .onAppear {
             self.networkManager.fetchData()
